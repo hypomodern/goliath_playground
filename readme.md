@@ -6,7 +6,7 @@ I'm curious and I want to play. Also [Heroku Cedar](http://devcenter.heroku.com/
 
 ## Goal
 
-A goliath router that returns interesting, well-formed JSON from two endpoints: one streaming, one not. Firefox is, I think, the only browser that supports streamed responses at the moment, but non-browser clients (e.g. cURL, Node.js, other Eventmachine-backed Ruby services) should be able to consume streamed JSON just fine. If you're on ruby, check out yajl-ruby. If you're on node.js, you can either parse it yourself or use yajl-js. Check it out: [YAJL](http://lloyd.github.com/yajl/), [DIY help](http://stackoverflow.com/questions/5771914/nodejs-parsing-chunked-twitter-json).
+A goliath router that returns interesting, well-formed JSON from two endpoints: one streaming, one not. Firefox is, I think, the only browser that supports streamed responses at the moment (EDIT: nope, new Chrome does too), but non-browser clients (e.g. cURL, Node.js, other Eventmachine-backed Ruby services) should be able to consume streamed JSON just fine. If you're on ruby, check out yajl-ruby. If you're on node.js, you can either parse it yourself or use yajl-js. Check it out: [YAJL](http://lloyd.github.com/yajl/), [DIY help](http://stackoverflow.com/questions/5771914/nodejs-parsing-chunked-twitter-json).
 
 Maybe we'll get websockets going and be able to stream to a websocket someday :).
 
