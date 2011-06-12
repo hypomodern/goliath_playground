@@ -16,5 +16,11 @@ Maybe we'll get websockets going and be able to stream to a websocket someday :)
 * You can run this puppy with `bundle exec ruby router.rb -sv -e prod -p $PORT`
 * play around with curl, e.g. curl http://localhost:$PORT
 * or with a modern browser (FF4+, newish Chrome) you can check out the streaming action in the browser!
+* visit the root page to get a quick overview and relevant links.
 
 Heroku's new Cedar stack supports all of these toys, too.
+
+### A Tip of the Hat to:
+
+* Ilya Grigorik, natch. His [blog post](http://www.igvita.com/2011/06/02/0-60-deploying-goliath-on-heroku-cedar/?utm_source=feedburner&utm_campaign=Feed%3A+igvita+%28igvita.com%29&utm_content=feed) was the inspiration.
+* Heroku, for the Cedar stack.

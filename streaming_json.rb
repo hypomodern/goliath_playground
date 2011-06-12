@@ -14,6 +14,7 @@ class StreamingJSON < Goliath::API
     repos = github['repositories']
     logger.info "Got #{repos.count} repos"
 
+    # fake some lengthy work (~100ms) to get a response, then put it on the wire
     encoder = Yajl::Encoder.new
     timer = EM.add_periodic_timer(0.1) do
       repo_data = repos.pop
